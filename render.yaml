@@ -3,8 +3,8 @@ services:
     name: ai-debate-room
     runtime: node
     plan: free
-    buildCommand: npm --prefix client install && npm --prefix client run build && npm --prefix server install && npm --prefix server run build
-    startCommand: node server/dist/index.js
+    buildCommand: npm run build
+    startCommand: npm start
     envVars:
       - key: NODE_ENV
         value: production
