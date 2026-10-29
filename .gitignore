@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Production builds
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.local
+
+# SQLite Database files
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+data/*.db
+data/*.sqlite
+
+# Logs
+logs/
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
